@@ -1,0 +1,31 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section {
+    height: 100vh;
+}
+
+header {
+    place-self: start center;
+    grid-area: content;
+    z-index: 1;
+    max-width: 100%; 
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
