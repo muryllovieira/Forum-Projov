@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,29 +10,40 @@
     <link rel="stylesheet" href="./css/menu.css">
     <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./css/quem-somos.css">
+    <link rel="stylesheet" href="./css/oque-fazemos.css">
+    <link rel="stylesheet" href="./css/temas.css">
+    <link rel="stylesheet" href="./css/back.css">
 
     <!-- Importações de Fontes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
 
+    <script src="https://kit.fontawesome.com/5ed2d43b7d.js" crossorigin="anonymous"></script>
+
 
 </head>
+
 <body>
     <header>
         <h1>FórumPROJOV</h1>
         <nav>
             <ul class="menu">
-                <li><a href="#">Home</a></li>
+                <li><a href="#home">Home</a></li>
                 <li><a href="#sobre-nos">Sobre nós</a></li>
-                <li><a href="#">O que fazemos</a></li>
-                <li><a href="#">Notícias</a></li>
+                <li><a href="#oque-fazemos">O que fazemos</a></li>
+                <li><a href="#temas">Notícias</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section class="banner">
+
+        <a href="#home" class="back">
+            <i class="fas fa-angle-double-up"></i>
+        </a>
+
+        <section class="banner" id="home">
             <div class="container">
                 <h2>Fórum de Notícias</h2>
                 <h1>PROJOV</h1>
@@ -42,15 +54,15 @@
         <section class="quem-somos" id="sobre-nos">
             <div class="container">
                 <div class="texto">
-                    <h2>QUEM SOMOS NÓS</h2>
-                    <p>Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun 
-                        Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun 
-                        Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun 
+                    <p class="tittle-quem-somos">QUEM SOMOS NÓS</h2>
+                    <p>Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun
+                        Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun
+                        Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun
                         Lorem ipsun Lorem ipsun Lorem ipsun.
                     </p>
                     <p>
-                        Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun 
-                        Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun 
+                        Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun
+                        Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun
                         Lorem ipsun Lorem ipsun Lorem ipsun Lorem ipsun Lorem.
                     </p>
                 </div>
@@ -62,8 +74,83 @@
                 </div>
             </div>
         </section>
+
+        <section class="oque-fazemos" id="oque-fazemos">
+            <div class="container-oque-fazemos-pai">
+                <div class="container-oque-fazemos">
+                    <p class="tittle-oque-fazemos">O QUE FAZEMOS</h2>
+                    <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+                    <div class="div-container">
+                        <div class="imagem"></div>
+                        <a href="#" class="btn">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="temas" id="temas">
+            <div class="temas">
+                <p class="tittle-tema">TEMAS QUE VALE A PENA ACOMPANHAR</h1>
+                <p>Conheça alguns dos assuntos debatidos atualmente</p>
+                <div class="cards">
+                    <div class="card">
+                        <img src="./img/cannabis.png" alt="Legalização do Cannabis">
+                        <h2>Legalização do Cannabis</h2>
+                        <p>Conheça um pouco mais do assunto e as últimas notícias sobre o tema.</p>
+                        <div class="botao">
+                            <a href="#">Ver</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/pena-morte1.png" alt="Pena de Morte">
+                        <h2>Pena de Morte</h2>
+                        <p>Conheça um pouco mais do assunto e as últimas notícias sobre o tema.</p>
+                        <div class="botao">
+                            <a href="#">Ver</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/educação-sexual.jpg" alt="Educação Sexual">
+                        <h2>Educação Sexual</h2>
+                        <p>Conheça um pouco mais do assunto e as últimas notícias sobre o tema.</p>
+                        <div class="botao">
+                            <a href="#">Ver</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/queimadas.png" alt="As queimadas no Brasil">
+                        <h2>As queimadas no Brasil</h2>
+                        <p>Conheça um pouco mais do assunto e as últimas notícias sobre o tema.</p>
+                        <div class="botao">
+                            <a href="#">Ver</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/podeserabuso-noticiav3.jpg"
+                            alt="Abuso e Exploração Sexual Contra Crianças e Adolescentes">
+                        <h2>Abuso e Exploração Sexual Contra Crianças e Adolescentes</h2>
+                        <p>Conheça um pouco mais do assunto e as últimas notícias sobre o tema.</p>
+                        <div class="botao">
+                            <a href="#">Ver</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
     </main>
 
     <footer></footer>
+
+    <script>
+        document.querySelector('.back').addEventListener('click', function(e) {
+            e.preventDefault(); // Evita comportamento padrão do link
+            window.scrollTo({
+                top: 0, // Vai até o topo da página
+                behavior: 'smooth' // Comportamento suave ao rolar
+            });
+        });
+    </script>
 </body>
+
 </html>

@@ -6,11 +6,18 @@
 
 .quem-somos .container {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
 }
 
 .quem-somos .texto {
     width: 60%;
+}
+
+.tittle-quem-somos{
+    font-size: 2.3rem;
+    font-family: "Fredoka", sans-serif;
+    color: #000000;
+    font-weight: 600;
 }
 
 .quem-somos .imagens {
@@ -27,4 +34,8 @@
     border-radius: 10px;
     background-size: cover;
     background-position: center;
+}
+
+.quem-somos p{
+    margin-top: 6%;
 }
