@@ -1,0 +1,48 @@
+.banner {
+    background-image: url('../img/cannabis.png');
+    background-size: cover;
+    background-position: center;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 2em;
+}
+
+.titulo {
+    padding: 2em;
+}
+
+.conteudo {
+    padding: 2em;
+}
+
+.titulo p {
+    font-size: 3.5rem;
+}
+
+.titulo span {
+    font-size: 1.5rem;
+}
+
+.conteudo p {
+    margin-bottom: 20px;
+    font-size: 3.5rem;
+}
+
+.conteudo span{
+    font-size: 1.5rem;
+}
+
+.conteudo img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+  }
