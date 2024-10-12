@@ -1,15 +1,20 @@
-/* Cabeçalho */
+
 header {
     background-color: #fff;
     padding: 20px 0;
     border-bottom: 1px solid #ddd;
 }
 
+
 header h1 {
     float: left;
     font-size: 24px;
     font-weight: bold;
     color: #333;
+    background: -webkit-linear-gradient(left, rgb(32, 32, 32) 43%, blue 0%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Fredoka", sans-serif;
 }
 
 header nav {
@@ -91,8 +96,10 @@ li:hover{
 .container1,
 .container2,
 .container3 {
+    display: flex;
     text-align: center;
     justify-content: center;
+    align-items: center;
     margin-right: 3rem;
     background-color: #ffffff;
     width: 300px;
@@ -101,16 +108,209 @@ li:hover{
     box-shadow: -1px 7px 25px -3px rgba(87, 87, 87, 0.75);
     -webkit-box-shadow: -1px 7px 25px -3px rgba(87, 87, 87, 0.75);
     -moz-box-shadow: -1px 7px 25px -3px rgba(87, 87, 87, 0.75);
+}
 
+.container1 p,
+.container2 p ,
+.container3 p {
+    font-family: "Fredoka", sans-serif;
+    font-weight: 600;
+    color: #333333;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.2rem;
+    margin-top: 5%;
 }
 
 
-.risco {
-    width: 100%;
+.linha1 {
     height: 1px;
-    background-color: #ccc;
-    margin: 20px 0;
-    margin-top: 40px;
-    margin-bottom: 40px;
-  }
+    background-color: #cccccc;
+    margin-left: 24rem;
+    margin-right: 24rem;
+}
 
+.linha2 {
+    height: 1px;
+    background-color: #cccccc;
+    margin-left: 24rem;
+    margin-right: 24rem;
+    margin-bottom: 5rem;
+}
+
+
+@media (max-width: 768px) {
+
+    section {
+        height: 100%;
+        padding: 0%;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner {
+        background-image: none;
+    }
+
+    .linha1 {
+        display: flex;
+        width: auto;
+        height: 1px;
+        background-color: #cccccc;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        margin-bottom: 5rem;
+    }
+
+    .linha2 {
+        display: flex;
+        width: auto;
+        height: 1px;
+        background-color: #cccccc;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+
+    .menu{
+        margin-top: 1rem;
+        align-items: center;
+        gap: 0px;
+    }
+
+    .menu a{
+        font-size: 10px;
+        margin: 10px;
+        align-items: center;
+    }
+
+    .banner{
+        padding: 0%;
+    }
+
+    .container {
+        width: auto;
+        margin-bottom: 3rem;
+        margin-top: 50px;
+    }
+
+    .container h1 {
+        text-align: center;
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .container h2 {
+        text-align: center;
+        font-size: 50px;
+        margin: 0;
+    }
+
+    .mini-containers {
+        display: none;
+    }
+
+    .quem-somos .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+    }
+
+    .quem-somos .imagens{
+        display: none;
+    }
+
+    .quem-somos img{
+        display: none;
+    }
+
+    .container .imagens {
+        display: none !important;
+    }
+
+    .quem-somos p{
+        display: flex;
+        justify-items: center;
+        margin-right: 0% !important;
+    }
+
+    .texto p {
+        display: flex;
+        justify-items: center;
+    }
+
+    .quem-somos .texto {
+        width: 100% !important;
+    }
+
+    .div-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 0rem;
+    }
+
+    .oque-fazemos .imagem {
+        width: 480px !important;
+        height: 140px !important;
+        margin: 10px;
+        border-radius: 10px;
+        border: 1px solid #c3c3c3;
+        box-shadow: 0px 3px 0px rgba(41, 41, 41, 0.5);
+    }
+
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        width: 20rem !important;
+        height: 18rem;
+        padding: 12px;
+
+    }
+
+    .card img{
+        width: 18rem !important;
+        height: 5rem !important;
+    }
+
+    .tittle-tema {
+        display: flex;
+        font-size: 1.5rem !important;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tittle-oque-fazemos {
+        display: flex;
+        font-size: 1.5rem !important;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tittle-quem-somos {
+        display: flex;
+        font-size: 1.5rem !important;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}

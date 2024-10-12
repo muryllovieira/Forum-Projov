@@ -204,9 +204,16 @@ body {
     background-color: #ffffff;
 }
 
-.logo img {
+.logo h2 {
     margin-left: 50px;
-    height: 15px;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    background: -webkit-linear-gradient(left, rgb(32, 32, 32) 35%, blue 0%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Fredoka", sans-serif;
 }
 
 .nav-links {
@@ -222,6 +229,7 @@ body {
     text-decoration: none;
     font-weight: 500;
     color: #333;
+    font-size: 1.3rem;
 }
 
 .nav-links a:hover {
