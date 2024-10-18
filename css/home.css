@@ -260,12 +260,16 @@ li:hover{
     }
 
     .oque-fazemos .imagem {
-        width: 480px !important;
+        width: 320px !important;
         height: 140px !important;
         margin: 10px;
         border-radius: 10px;
         border: 1px solid #c3c3c3;
         box-shadow: 0px 3px 0px rgba(41, 41, 41, 0.5);
+    }
+
+    .oque-fazemos p{
+        margin: 2%;
     }
 
 
